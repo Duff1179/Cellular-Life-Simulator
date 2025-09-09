@@ -7,7 +7,7 @@ You will need to provide two valid command line arguments for the program to fun
 -i for input file path
 -o for output file path (include .txt at the end)
 
-You also can specify the amount of processes you want, if the argument is left out it will be assumed to be one (single threaded)
+You also can specify the amount of processes you want, if the argument is left out it will be assumed to be one (single threaded):
 -p for amount of processes (anything greater than zero is acceptable)
 
 
