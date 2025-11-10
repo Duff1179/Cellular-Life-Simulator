@@ -1,14 +1,14 @@
 This code take in a file by the command line and does a cellular life simulator on the input file given. 
 It will return the output after a hundred iterations the folder where you ran the file. 
 This only works with square matricies, but can take any size.
-It will return the time taken to solve each one to with how many processes you used.
+It will return the time taken to solve each one to with how many processes you used. <br>
 <br>
 You will need to provide two valid command line arguments for the program to function properly: <br>
 -i for input file path <br>
--o for output file path (include .txt at the end)
+-o for output file path (include .txt at the end) <br>
 <br>
 You also can specify the amount of processes you want, if the argument is left out it will be assumed to be one (single threaded): <br>
--p for amount of processes (anything greater than zero is acceptable)
+-p for amount of processes (anything greater than zero is acceptable) <br>
 <br>
 Here are the cellular life rules the program runs by: <br>
 Firstly the only acceptable symbols are (X, x, ., o, O) and they have their assosiated values (-3, -1, 0, 1, 3). All of them are dependent on the sum of their neighbors <br>
